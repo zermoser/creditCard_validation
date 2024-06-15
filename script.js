@@ -205,6 +205,6 @@ form.addEventListener("submit", (e) => {
   } else {
     formWrapper.classList.add("hidden");
     completeState.classList.remove("hidden");
-    btnSubmit.innerHTML = "Continue";
+    btnSubmit.innerHTML = "ยืนยัน";
   }
 });
